@@ -1,9 +1,10 @@
 package com.exercise12oop.app;
 
 import com.exercise12oop.model.Circle;
+import com.exercise12oop.model.IsoscelesTriangle;
 import com.exercise12oop.model.Square;
 import com.exercise12oop.model.Triangle;
-import java.util.*;
+import java.util.Scanner;
 
 public class ShapeApp {
 
@@ -22,6 +23,9 @@ public class ShapeApp {
 		System.out.println("Input the radio of the circle: ");
 		Scanner input = new Scanner(System.in);
 		circle1.setRadio(input.nextDouble());
+		
+		IsoscelesTriangle iso = new IsoscelesTriangle();
+		
 		
 		System.out.println("The area of the circle is "+circle1.CalculateArea());
 		input.close();

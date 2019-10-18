@@ -1,8 +1,9 @@
 package com.exercise12oop.model;
 
-public abstract class Shape implements Shapeable 
+public abstract class Shape implements Shapeable, Somethingable
 {
 
+	
 	@Override
 	public String Draw() {
 		
